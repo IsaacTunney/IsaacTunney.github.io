@@ -6,7 +6,7 @@ permalink: /publication/2023-NCRN-AGM-poster
 excerpt: ''
 date: 2023-06-16
 venue: 'NSERC Canadian Robotics Network 2023 AGM -- Research Update Presentation to Partners'
-slidesurl: 'http://IsaacTunney.github.io/files/NCRN-AGM-poster-2023.pdf'
+# slidesurl: 'http://IsaacTunney.github.io/files/NCRN-AGM-poster-2023.pdf'
 # citation: 'J. Bass, I. Tunney and A. L. Desbiens, "Adaptative Friction Shock Absorbers and Reverse Thrust for Fast Multirotor Landing on Inclined Surfaces," in IEEE Conference, Kyoto (Japan), October 2022
 
 ---
