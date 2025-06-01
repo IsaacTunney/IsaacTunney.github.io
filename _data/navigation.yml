@@ -9,20 +9,20 @@
 
 main:
 
-  - title: "About Me"
-    url: /teaching/ 
+  # - title: "Projects Portfolio"
+  #   url: /portfolio/
 
-  - title: "Projects Portfolio"
-    url: /portfolio/
-
-  - title: "Research"
+  - title: "Current Research"
     url: /talks/
 
   - title: "Publications & Talks"
     url: /publications/
 
-  - title: "CV"
-    url: /cv/  
+  - title: "About Me"
+    url: /teaching/ 
+
+  # - title: "CV"
+  #   url: /cv/  
 
   # - title: "Talks"
   #   url: /talks/

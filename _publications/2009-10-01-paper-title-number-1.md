@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "Adaptive Friction Shock Absorbers and Reverse Thrust for Fast Multirotor Landing on Inclined Surfaces"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'This paper is about the use of friction-based dampers combined with thrust reversal to enable small multirotors to land rapidly on steep surfaces (up to 60°) such as rooftops.'
+date: 2022-5-20
+venue: 'Robotics and Automation Letters'
+# slidesurl: 'http://IsaacTunney.github.io/files/slides1.pdf'
+paperurl: 'http://IsaacTunney.github.io/files/paper1_landingOnRooftops.pdf'
+bibtexurl: 'http://IsaacTunney.github.io/files/bibtex1_landingOnRooftops.bib'
+citation: 'J. Bass, I. Tunney and A. L. Desbiens, "Adaptative Friction Shock Absorbers and Reverse Thrust for Fast Multirotor Landing on Inclined Surfaces," in IEEE Robotics and Automation Letters, vol. 7, no. 3, pp. 6701-6708, July 2022, doi: 10.1109/LRA.2022.3176102'
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.

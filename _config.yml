@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Isaac Tunney's Porfolio"
+title                    : "Isaac's Porfolio of Projects"
 title_separator          : "-"
 name                     : &name "Isaac Tunney"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "bioPhoto.jpg"
   name             : "Isaac Tunney"
-  pronouns         : # example: "she/her"  
+  pronouns         : # example: "she/her"
   bio              : "PhD student in Mechanical Engineering and passionate robotisist!"
   location         : "Gatineau (QC), Canada"
   employer         : "Université de Sherbrooke"
@@ -84,6 +84,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  talks:
+    title: 'Conference Talks'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
