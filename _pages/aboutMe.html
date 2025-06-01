@@ -1,0 +1,12 @@
+---
+layout: archive
+title: "About Me"
+permalink: /aboutMe/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for post in site.aboutMe reversed %}
+  {% include archive-single.html %}
+{% endfor %}

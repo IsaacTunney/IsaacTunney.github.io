@@ -19,10 +19,13 @@ main:
     url: /publications/
 
   - title: "About Me"
-    url: /teaching/ 
+    url: /aboutMe/
+
+  # - title: "Teachings"
+  #   url: /teaching/
 
   # - title: "CV"
-  #   url: /cv/  
+  #   url: /cv/
 
   # - title: "Talks"
   #   url: /talks/

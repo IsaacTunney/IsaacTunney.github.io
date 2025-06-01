@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my website, a place to showcase my best engineering projects!"
+title: "Welcome to my website -- a place to showcase my best engineering projects!"
 author_profile: true
 redirect_from: 
   - /about/
