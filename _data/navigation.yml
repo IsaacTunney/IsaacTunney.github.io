@@ -13,13 +13,17 @@ main:
   #   url: /portfolio/
 
   - title: "Current Research"
-    url: /talks/
+    url: /research/
 
   - title: "Publications & Talks"
     url: /publications/
 
   - title: "About Me"
     url: /aboutMe/
+
+  - title: "Download Resume"
+    url: "/files/resume.pdf"
+    download: true
 
   # - title: "Teachings"
   #   url: /teaching/

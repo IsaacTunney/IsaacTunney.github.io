@@ -22,10 +22,10 @@ repository               : "IsaacTunney/isaactunney.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bioPhoto.jpg"
+  avatar           : "bioPhotoAvatar.png"
   name             : "Isaac Tunney"
   pronouns         : # example: "she/her"
-  bio              : "PhD student in Mechanical Engineering and passionate robotisist!"
+  bio              : "PhD student in Mechanical Engineering and passionate roboticist!"
   location         : "Gatineau (QC), Canada"
   employer         : "Université de Sherbrooke"
   uri              : # URL
