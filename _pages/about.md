@@ -1,11 +1,47 @@
 ---
 permalink: /
-title: "Welcome to my website -- a place to showcase my best engineering projects!"
+title: "Welcome to my website -- A place to showcase my best engineering projects!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+Hello! I'm Isaac, a Mechanical Engineer candidate and a passionate roboticist. Welcome to my website, which is mostly a hub for me to gather some of my best engineering projects and to present my research with the University of Sherbrooke.
+
+<!--Lets go in reverse chronological order, starting with more recent projects. -->
+# The Perfectly-Clear-Ice Maker
+Lately, I've been exploring the idea of making perfect cristal clear ice at home. Some companies already specialize in making clear ice for sculpting competitions or for fancy restaurants, but the commercial small-scale solutions currently out there are quite large. This is due to the fact that the typical solution to make clear ice is to ensure directional freezing, often done with good insulation on the ice tray sides and either the top of bottom, to have either top-to-bottom freezing or vice versa. But all the retailer products are quite large and/or expansive. That got me thinking: Could I make my own custom clear-ice maker using inexpensive existing products and a bit of creativity?
+The answer is yes! ...
+
+
+# High-Impact-Load Quick-release Novel Gripper for Acrobatic Robots
+Embedded youtube video  
+
+
+# Omnidirectional Robot to Interact and Play with your Pets
+Uses mecanum wheels for the omnidirectional motion.  
+Based off of the Moebius mecanum wheel platform.
+Teensy 4.1 for low-level control.
+Ball thrower, ball detector, treat thrower, vision-enabled through Raspberry Pi 4B and Pi Camera.
+Custom design for all throwing/launch mechanisms.
+
+# Drone Simulations with ROS and Gazebo
+Here, I decided to have fun with multi-drones ROS & Gazebo simulations! This was based off of X's work and tutorials --> XX.
+
+# Aerostrabe -- A fully immersive 4-DOF VR-intergrated flight simulator to experience the urban air mobility of the future!
+Description.  
+Embedded facebook video.  
+Teammates:  
+Project proposed and financed by Charles Bombardier (linkedIn link).  
+Sponsors:  
+
+# Robotic hand
+Embedded Video
+
+# Small-scale Arduino Radar with GUI
+Embedded Video
+Tutorial Link
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
