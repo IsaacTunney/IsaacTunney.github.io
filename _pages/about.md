@@ -9,37 +9,50 @@ redirect_from:
 
 Hello! I'm Isaac, a Mechanical Engineer candidate and a passionate roboticist. Welcome to my website, which is mostly a hub for me to gather some of my best engineering projects and to present my research with the University of Sherbrooke.
 
-<!--Lets go in reverse chronological order, starting with more recent projects. -->
-# The Perfectly-Clear-Ice Maker
-Lately, I've been exploring the idea of making perfect cristal clear ice at home. Some companies already specialize in making clear ice for sculpting competitions or for fancy restaurants, but the commercial small-scale solutions currently out there are quite large. This is due to the fact that the typical solution to make clear ice is to ensure directional freezing, often done with good insulation on the ice tray sides and either the top of bottom, to have either top-to-bottom freezing or vice versa. But all the retailer products are quite large and/or expansive. That got me thinking: Could I make my own custom clear-ice maker using inexpensive existing products and a bit of creativity?
-The answer is yes! ...
+<!--Lets go in coolness order -->
+
+## Aerostrabe -- A fully immersive 4-DOF VR-intergrated flight simulator to experience the urban air mobility of the future!
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0">
+</script>
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+  <div class="fb-video"
+      data-href="https://www.facebook.com/facebook/videos/3886459841378560/"
+      data-width="760"
+      data-show-text="false">
+  </div>
+</div>
+
+Teammates:
+Project proposed and financed by Charles Bombardier (linkedIn link).
+Sponsors:
+
+## High-Impact-Load Quick-release Novel Gripper for Acrobatic Robots
+Embedded youtube video
 
 
-# High-Impact-Load Quick-release Novel Gripper for Acrobatic Robots
-Embedded youtube video  
-
-
-# Omnidirectional Robot to Interact and Play with your Pets
+## Omnidirectional Robot to Interact and Play with your Pets
 Uses mecanum wheels for the omnidirectional motion.  
 Based off of the Moebius mecanum wheel platform.
 Teensy 4.1 for low-level control.
 Ball thrower, ball detector, treat thrower, vision-enabled through Raspberry Pi 4B and Pi Camera.
 Custom design for all throwing/launch mechanisms.
 
-# Drone Simulations with ROS and Gazebo
+## Drone Simulations with ROS and Gazebo
 Here, I decided to have fun with multi-drones ROS & Gazebo simulations! This was based off of X's work and tutorials --> XX.
 
-# Aerostrabe -- A fully immersive 4-DOF VR-intergrated flight simulator to experience the urban air mobility of the future!
-Description.  
-Embedded facebook video.  
-Teammates:  
-Project proposed and financed by Charles Bombardier (linkedIn link).  
-Sponsors:  
 
-# Robotic hand
+
+## Robotic hand
 Embedded Video
 
-# Small-scale Arduino Radar with GUI
+## The Perfectly-Clear-Ice Maker
+Lately, I've been exploring the idea of making perfect cristal clear ice at home. Some companies already specialize in making clear ice for sculpting competitions or for fancy restaurants, but the commercial small-scale solutions currently out there are quite large. This is due to the fact that the typical solution to make clear ice is to ensure directional freezing, often done with good insulation on the ice tray sides and either the top of bottom, to have either top-to-bottom freezing or vice versa. But all the retailer products are quite large and/or expansive. That got me thinking: Could I make my own custom clear-ice maker using inexpensive existing products and a bit of creativity?
+The answer is yes! ...
+
+## Small-scale Arduino Radar with GUI
 Embedded Video
 Tutorial Link
 
