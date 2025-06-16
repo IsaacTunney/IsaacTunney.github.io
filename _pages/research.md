@@ -1,11 +1,9 @@
 ---
 layout: archive
-# title: "Current Research"
+title: "PhD Research"
 permalink: /research/
 author_profile: true
 ---
-
-# PhD Research
 
 ## Friction-Based Dampers and Reverse Thrust to Land Multirotors on Steep Rooftops
 Small paragraph about chapter 1 of my Masters/PhD research.  
