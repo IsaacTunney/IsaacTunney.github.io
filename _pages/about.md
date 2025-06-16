@@ -1,29 +1,21 @@
 ---
 permalink: /
-title: "Welcome to my website -- A place to showcase my best engineering projects!"
+title: "Isaac's Portfolio of Projects"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hello! I'm Isaac, a Mechanical Engineer candidate and a passionate roboticist. Welcome to my website, which is mostly a hub for me to gather some of my best engineering projects and to present my research with the University of Sherbrooke.
+Hello! I'm Isaac, a Mechanical Engineer candidate and a passionate roboticist. Welcome to my personal website! This space is a hub for me to gather some of my best engineering projects and to present my ongoing research with the University of Sherbrooke (Canada).
+To present myself in a few words, I like to invent things, especially if these things do not exist or do not operate as they should! I enjoy solving problems through creative thinking and fast prototyping. One of my favorite parts of any project is the inital brainstorming/creative phase where all ideas are accepted and explored, before converging towards a solution.
+
+Most of my work and research in the last years has focussed on drones (see Current Research link), but I enjoy working on other robots or projects too! Below is a quick presentation of some of my past projects, starting with the coolest.
 
 <!--Lets go in coolness order -->
 
 ## Aerostrabe -- A fully immersive 4-DOF VR-intergrated flight simulator to experience the urban air mobility of the future!
-
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous"
-  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0">
-</script>
-<div style="display: flex; justify-content: center; margin-top: 20px;">
-  <div class="fb-video"
-      data-href="https://www.facebook.com/facebook/videos/3886459841378560/"
-      data-width="760"
-      data-show-text="false">
-  </div>
-</div>
+Will need to put the video on youtube and embbed it here.
 
 Teammates:
 Project proposed and financed by Charles Bombardier (linkedIn link).
@@ -44,6 +36,11 @@ Custom design for all throwing/launch mechanisms.
 Here, I decided to have fun with multi-drones ROS & Gazebo simulations! This was based off of X's work and tutorials --> XX.
 
 
+## Drone Simulations in Python
+
+
+## RRT motion planning for UAV in full 2D state space
+
 
 ## Robotic hand
 Embedded Video
@@ -52,7 +49,11 @@ Embedded Video
 Lately, I've been exploring the idea of making perfect cristal clear ice at home. Some companies already specialize in making clear ice for sculpting competitions or for fancy restaurants, but the commercial small-scale solutions currently out there are quite large. This is due to the fact that the typical solution to make clear ice is to ensure directional freezing, often done with good insulation on the ice tray sides and either the top of bottom, to have either top-to-bottom freezing or vice versa. But all the retailer products are quite large and/or expansive. That got me thinking: Could I make my own custom clear-ice maker using inexpensive existing products and a bit of creativity?
 The answer is yes! ...
 
+## Particle Explosion Animation in C++
+
+
 ## Small-scale Arduino Radar with GUI
+This project dates back to my first year of University.
 Embedded Video
 Tutorial Link
 

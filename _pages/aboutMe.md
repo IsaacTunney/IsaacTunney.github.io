@@ -5,23 +5,36 @@ permalink: /aboutMe/
 author_profile: true
 ---
 
-Hello! I'm Isaac Tunney, a passionate developer and researcher. Welcome to my personal website where I share my projects and research.
-I like to invent things that do not exist or that do exist but that do not perform/operate as it should.
-I like to solve problems through creative thinking and fast prototyping.
-One of my favorite parts of a project is the inital brainstorming creative phase where all ideas are accepted and explored, before converging towards a unique solution.
+Here is some extra information about me!
 
-# Education
-
-
-# Work Experience
-
-
-# Interests & Hobbies
-TODO: Talk about rock climbing, latte art, running, etc. Put pictures too.
-
-
-<p>
+<!-- <p>
   <a href="{{ site.baseurl }}/files/resume.pdf" download class="btn btn-primary">
     <i class="fa fa-download"></i> Download Resume
   </a>
-</p>
+</p> -->
+
+## Interests & Hobbies
+When I am not working on my research or robots, I spend a lot of time either at the rock climbing gym or running!
+I have been rock climbing for about 10 years now, focussing mostly on indoor bouldering (no ropes, lower walls but more intense movements), although I have still managed to climb some nice outdoor cliffs like the ones on the pictures below!
+
+Apart from sports, I enjoy reading, playing chess and other board games, and learning (anything, just learning)!
+
+## Latte Art (Just for Fun!)
+As an engineering, I (obviously) have a deep passion/obsession with coffee. My 3 lattes a day have given me lots of opportunities to practice and have fun with latte art, but its still a work in progress. After learning the to do the heart and the tulip, I have recently been working on the rosetta... Next up, the swan!
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 15px;">
+  <!-- Row 1 -->
+  <img src="../images/cafe1.jpg" alt="Latte Art 1" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+  <img src="../images/cafe2.jpg" alt="Latte Art 2" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+  <img src="../images/cafe3.jpg" alt="Latte Art 3" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+
+  <!-- Row 2 -->
+  <img src="../images/cafe6.jpg" alt="Latte Art 6" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+  <img src="../images/cafe4.jpg" alt="Latte Art 4" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+  <div></div> <!-- empty cell for symmetry -->
+</div>
+
+## Favorite Quotes
+I tend to write down special quotes that have transformed the way I think, so here's a list of my favorite ones:
+  - Success is the ability to go from failure to failure without a loss of enthusiasm. - Winston Churchill
+  - Un événement est aussi important que l'importance qu'on lui accorde.
