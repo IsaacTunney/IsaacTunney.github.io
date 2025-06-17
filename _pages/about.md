@@ -19,11 +19,11 @@ Landing on a high-speed ground vehicle:
 <iframe 
   width="560" 
   height="315" 
-  src="https://youtu.be/aee_68XI4RY" 
+  src="https://www.youtube.com//embed/aee_68XI4RY" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen>
-</iframe>  
+</iframe>
 
 **Teammates:** Alexis Bédard-Meunier, Julien Labbé, Julien Charbonneau, Charles-Étienne Gauthier and Benoit Beaupré.  
 Project proposed and financed by Charles Bombardier (linkedIn link).  
