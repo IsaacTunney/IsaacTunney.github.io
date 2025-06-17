@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Isaac's Portfolio of Projects"
+title: "Portfolio of Projects"
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,11 +15,20 @@ Most of my work and research in the last years has focussed on drones (see Curre
 <!--Lets go in coolness order -->
 
 ## Aerostrabe -- A fully immersive 4-DOF VR-intergrated flight simulator to experience the urban air mobility of the future!
-Will need to put the video on youtube and embbed it here.
+Landing on a high-speed ground vehicle:
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://youtu.be/aee_68XI4RY" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>  
 
-Teammates:
-Project proposed and financed by Charles Bombardier (linkedIn link).
-Sponsors:
+**Teammates:** Alexis Bédard-Meunier, Julien Labbé, Julien Charbonneau, Charles-Étienne Gauthier and Benoit Beaupré.  
+Project proposed and financed by Charles Bombardier (linkedIn link).  
+**Main sponsors:** Imaginactive, BRP, Epic Games (Epic MegaGrants)  
+**Other sponsors:** CSTM, Chair in Design for Aluminium, Gosselin, D-BOX, Exp., Shellex, WCB, Royal Lepage  
 
 ## High-Impact-Load Quick-release Novel Gripper for Acrobatic Robots
 Embedded youtube video
