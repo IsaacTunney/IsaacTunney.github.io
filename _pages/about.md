@@ -7,15 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Isaac, a Mechanical Engineer candidate and a passionate roboticist. Welcome to my personal website! This space is a hub for me to gather some of my best engineering projects and to present my ongoing research with the University of Sherbrooke (Canada).
-To present myself in a few words, I like to invent things, especially if these things do not exist or do not operate as they should! I enjoy solving problems through creative thinking and fast prototyping. One of my favorite parts of any project is the inital brainstorming/creative phase where all ideas are accepted and explored, before converging towards a solution.
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
 
-Most of my work and research in the last years has focussed on drones (see Current Research link), but I enjoy working on other robots or projects too! Below is a quick presentation of some of my past projects, starting with the coolest.
+Hello! I'm Isaac, a PhD Student in Mechanical Engineering and a passionate roboticist. Welcome to my personal website! This space is a hub for me to gather some of my best engineering projects and to present my ongoing research with the University of Sherbrooke (Canada).
+To present myself in a few words, I like to invent things, especially if these things do not exist or do not operate as they should! I enjoy solving problems through creative thinking and fast prototyping, and one of my favorite parts of any project is the inital brainstorming/creative phase where all ideas are accepted and explored, before converging towards a solution.
+
+Most of my work and research in the last years has focussed on drones (see [Current Research](/research/)), but I enjoy working on other robots or projects too! Below is a quick presentation of some of my past projects, starting with the coolest.
 
 <!--Lets go in coolness order -->
 
-## Aerostrabe -- A fully immersive 4-DOF VR-intergrated flight simulator to experience the urban air mobility of the future!
-Landing on a high-speed ground vehicle:
+## Aerostrabe -- A fully immersive 4-DOF VR-integrated flight simulator to experience the urban air mobility of the future
+For our senior undergrade project, my team and I (6 mechanical engineering students) decided to create a complete multisensorial flight simulator from scratch! The vision: An immersive single-seat multirotor flight simulator that enables inventors and investors alike to fully experience the urban air mobility of the future.
+
+Here is the final product:
+<div style="margin-bottom: 20px;">
 <iframe 
   width="560" 
   height="315" 
@@ -24,9 +33,11 @@ Landing on a high-speed ground vehicle:
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen>
 </iframe>
+</div>
 
-**Teammates:** Alexis Bédard-Meunier, Julien Labbé, Julien Charbonneau, Charles-Étienne Gauthier and Benoit Beaupré.  
-Project proposed and financed by Charles Bombardier (linkedIn link).  
+**How does it work?** A 4-DOFs motion system moves the platform to create realistic sensations of accelerations, while a VR headset immerses the pilot (the simulator's user) in a virtual city made with Unreal Engine. The pilot uses ATV-style intuitive tactile commands to control the flying vehicle and uses its own weight to move from side to side, through load-cells placed under the seat and feet. Finally, based on the pilot commands, a semi-realistic dynamic model of the vehicle (in Python) is used to compute flight behavior, which is synchronized with the virtual world and simulator motion, while fans in the front are used to simulate wind and increase realism.
+
+**Team members:** Alexis Bédard-Meunier, Julien Labbé, Julien Charbonneau, Charles-Étienne Gauthier, Benoit Beaupré and Isaac Tunney  
 **Main sponsors:** Imaginactive, BRP, Epic Games (Epic MegaGrants)  
 **Other sponsors:** CSTM, Chair in Design for Aluminium, Gosselin, D-BOX, Exp., Shellex, WCB, Royal Lepage  
 
@@ -35,11 +46,14 @@ Embedded youtube video
 
 
 ## Omnidirectional Robot to Interact and Play with your Pets
-Uses mecanum wheels for the omnidirectional motion.  
-Based off of the Moebius mecanum wheel platform.
-Teensy 4.1 for low-level control.
-Ball thrower, ball detector, treat thrower, vision-enabled through Raspberry Pi 4B and Pi Camera.
-Custom design for all throwing/launch mechanisms.
+My dog Charlie, as any good Covid-19 dog, has some issues with the idea of staying at home alone. He also has a true passion for fetching tennis balls, although he struggles with the part where he has to give it back. This gave me the idea to create a small omnidirectional 4-wheel robot that can move around in the house, launch a tennis ball and give a treat when my dog brings the ball back to the robot. This way, Charlie can play and fetch a ball while I'm working!
+
+Here is a little demo of the robot in action with Charlie:
+(Video link here)
+
+**How does it work?**  
+The mobile platform uses 80-mm mecanum wheels to move in any direction (holonomic system), and a Teensy 4.1 for the low-level control of the platform. 
+The main (higher level) control system runs on a Raspberry Pi 4B and is connected to the Internet. A Pi Camera is used to detect objects such as the tennis ball and to do SLAM for navigation in the house/appartment. The mechanisms for the ball launcher and treat dispenser are all custom and 3D printed on a Markforged Onyx One. 
 
 ## Drone Simulations with ROS and Gazebo
 Here, I decided to have fun with multi-drones ROS & Gazebo simulations! This was based off of X's work and tutorials --> XX.
@@ -51,20 +65,18 @@ Here, I decided to have fun with multi-drones ROS & Gazebo simulations! This was
 ## RRT motion planning for UAV in full 2D state space
 
 
-## Robotic hand
-Embedded Video
-
 ## The Perfectly-Clear-Ice Maker
-Lately, I've been exploring the idea of making perfect cristal clear ice at home. Some companies already specialize in making clear ice for sculpting competitions or for fancy restaurants, but the commercial small-scale solutions currently out there are quite large. This is due to the fact that the typical solution to make clear ice is to ensure directional freezing, often done with good insulation on the ice tray sides and either the top of bottom, to have either top-to-bottom freezing or vice versa. But all the retailer products are quite large and/or expansive. That got me thinking: Could I make my own custom clear-ice maker using inexpensive existing products and a bit of creativity?
+Lately, I've been exploring the idea of making perfect cristal clear ice at home. Some companies already specialize in making clear ice for sculpting competitions or for fancy restaurants, but the commercial small-scale solutions currently out there are quite large. This is due to the fact that the typical solution to make clear ice is to ensure directional freezing, often done with good insulation on the ice tray sides and top or bottom, to have either top-to-bottom freezing or vice versa. However, all the retailer products are quite large and/or expansive. That got me thinking: Could I make my own custom clear-ice maker using inexpensive existing products and a bit of creativity?
 The answer is yes! ...
 
 ## Particle Explosion Animation in C++
-
+During my undergrade in mechanical engineering, I also wanted to learn how to code (more than just Matlab), so I took online C++ and Python courses (on Udemy). Here is a particle animation I made in C++ through one of the courses!
 
 ## Small-scale Arduino Radar with GUI
-This project dates back to my first year of University.
-Embedded Video
-Tutorial Link
+This project dates back to my first year of University (humble beginnings...). I played around with servo motors, distance sensors and a bit of programming to make a small-scale radar with a nice user interface.
+(Embedded Video or images)
+
+This was based off of a tutorial on youtube: Link
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 

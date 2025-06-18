@@ -1,6 +1,6 @@
 ---
 layout: archive
-# title: "About Me"
+title: "About Me"
 permalink: /aboutMe/
 author_profile: true
 ---
@@ -14,10 +14,12 @@ Here is some extra information about me!
 </p> -->
 
 ## Interests & Hobbies
-When I am not working on my research or robots, I spend a lot of time either at the rock climbing gym or running!
+When I am not working on my research or robots, I spend a lot of time either at the rock climbing gym, playing tennis or running!
 I have been rock climbing for about 10 years now, focussing mostly on indoor bouldering (no ropes, lower walls but more intense movements), although I have still managed to climb some nice outdoor cliffs like the ones on the pictures below!
 
-Apart from sports, I enjoy reading, playing chess and other board games, and learning (anything, just learning)!
+(put pictures)
+
+Apart from sports, I enjoy reading, playing chess and other board games, and learning new stuff!
 
 ## Latte Art (Just for Fun!)
 As an engineering, I (obviously) have a deep passion/obsession with coffee. My 3 lattes a day have given me lots of opportunities to practice and have fun with latte art, but its still a work in progress. After learning the to do the heart and the tulip, I have recently been working on the rosetta... Next up, the swan!
@@ -36,5 +38,9 @@ As an engineering, I (obviously) have a deep passion/obsession with coffee. My 3
 
 ## Favorite Quotes
 I tend to write down special quotes that have transformed the way I think, so here's a list of my favorite ones:
-  - Success is the ability to go from failure to failure without a loss of enthusiasm. - Winston Churchill
-  - Un événement est aussi important que l'importance qu'on lui accorde.
+  - Success is the ability to go from failure to failure without a loss of enthusiasm. - Winston Churchill (?)
+  - Un événement est aussi important que l'importance qu'on lui accorde. - My physics professor in college
+  - You can do anything, but not everything. - David Allen
+  - Thinking small is a self fulfilling prophecy. - Jeff Bezos
+  - I fear not the man who has practiced 10,000 kicks once, but the man who has practiced 1 kick 10,000 times. - Bruce Lee
+  - Luck is a dividend of sweat. The more you sweat, the more you get. - Ray Kroc
