@@ -46,7 +46,7 @@ Embedded youtube video
 
 
 ## Omnidirectional Robot to Interact and Play with your Pets
-My dog Charlie, as any good Covid-19 dog, has some issues with the idea of staying at home alone. He also has a true passion for fetching tennis balls, although he struggles with the part where he has to give it back. This gave me the idea to create a small omnidirectional 4-wheel robot that can move around in the house, launch a tennis ball and give a treat when my dog brings the ball back to the robot. This way, Charlie can play and fetch a ball while I'm working!
+My dog Charlie, as any good Covid-19 dog, has some issues with the idea of staying home alone. He also has a true passion for fetching tennis balls, although he struggles with the part where he has to give it back. This gave me the idea to create a small omnidirectional 4-wheel robot that can move around in the house, launch a tennis ball and give a treat when my dog brings the ball back to the robot. This way, Charlie can play and fetch a ball while I'm working!
 
 Here is a little demo of the robot in action with Charlie:
 (Video link here)

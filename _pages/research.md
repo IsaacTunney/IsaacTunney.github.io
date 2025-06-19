@@ -5,31 +5,57 @@ permalink: /research/
 author_profile: true
 ---
 
-## Friction-Based Dampers and Reverse Thrust to Land Multirotors on Steep Rooftops
-Small paragraph about chapter 1 of my Masters/PhD research.  
-Landing on rooftops:
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
+
+General intro here...
+
+## Phase 1: Friction-Based Dampers and Reverse Thrust to Land Multirotors on Steep Rooftops
+Small multirotors are not capable of landing in complex situations, such as on inclined surfaces, in wind gusts or at high impact velocities. This paper explores the use of lightweight friction shock absorbers, combined with rapid thrust reversal, to increase the landing envelope of a quadrotor. The friction shock absorbers serve to dissipate the drone’s kinetic energy and the reverse thrust increases the maximum slope inclination at which it can land. A landing gear prototype was designed and implemented on a DJI F450, and a model was created to generate landing maps to evaluate its benefits. Finally, the technology was tested in real outdoor conditions. The overall system enables drones to safely land on surfaces of up to 60° and at vertical speeds of up to 2.75 m/s, thus increasing the landing envelope by a factor of 8, compared to traditional multirotors.
+The video below shows our landing technology on a DJI F450 drone in real-world scenarios!
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tG1K_63q00Y" frameborder="0" allowfullscreen></iframe>
 
-## Upgraded Friction Shock Absorbers and Reverse Thrust to Land on High-Speed Ground Vehicles
-Small paragraph on chapter 2 of my Masters/PhD research.    
+For more information of that part of my project, check out my paper: 
 
-Landing on a high-speed ground vehicle: 
+## Phase 2: Upgraded Friction Shock Absorbers and Reverse Thrust to Land on High-Speed Ground Vehicles
+Small paragraph on chapter 2 of my Masters/PhD research.
+
+Drone design, landing gear design, 2D model and controller, Monte Carlo Simulations (sensitivity analysis).
+
+The video belows demonstrates the achieved performances of the landing technology. 
+We rented a dragway race track near Montreal (Canada) to conduct our trials.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OHBPAHqLN08" frameborder="0" allowfullscreen></iframe>  
 
-Landing on a moving canoe:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E-ns-MxMJvU" frameborder="0" allowfullscreen></iframe>  
+**Landing on an Trailer in Rough Terrain**  
+With robust control and precise tracking of the ground vehicle, achieving similar landing performance to what I described earlier is likely possible. However, when the vehicle moves over rough and unpredictable terrain, precisely timing the maneuver and syncing the drone’s descent with the vehicle’s motion becomes much more challenging. That's where having a damping landing gear and reverse thrust greatly simplifies the autonomous landing sequence! In the following demo, we successfully landed our drone autonomously on a trailer pulled by a Warthog over rough terrain during our field trials of the *NSERC Canadian Robotics Network* ([NCRN](https://ncrn-rcrc.mcgill.ca/)), near Toronto (Canada).  
+Big thanks to [Clearpath Robotics](https://clearpathrobotics.com/) for lending us the Warthog!
 
-Landing on a vehicle in rough unpredictable terrain:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jA9Zfpel1O8" frameborder="0" allowfullscreen></iframe>  
+<br> <!-- Adds vertical space -->
 
-Landing on a pickup truck at the 3IT Lab (University of Sherbrooke): This scenario could represent a drone landing on a pickup truck after a delivery to get a ride from a nearby vehicle for multi-city delivery systems.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hJn3TGY4muU" frameborder="0" allowfullscreen></iframe>  
+**Landing on a High-Speed Canoe**  
+As a fun experiment, during the 2024 field trials of the *NSERC Canadian Robotics Network*, we decided to test our technology in riskier conditions... We mounted a platform on a canoe and autonomously landed our drone on it while it was being towed at 30~km/h by an electric motor! No crashes!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E-ns-MxMJvU" frameborder="0" allowfullscreen></iframe>  
+<br> <!-- Adds vertical space -->
 
-Landing a drone on a pickup truck in very bumpy unpredictable dirt roads in the forest:
+**Landing on a Vehicle on an Off-Road Path in the Forest**  
+Using the same global system (DART UAV and target beacon mounted on pickup truck), we also demonstrated how our landing technology can enable a drone to land on a pickup truck moving on a rough dirt road in a forest near Sherbrooke (Quebec, Canada). On bumpy roads, the pickup undergoes strong vertical accelerations which can result in faster or slower impact speeds. Without the proper landing technology, this can easily result in a mission failure!
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_EjhQPquMnw" frameborder="0" allowfullscreen></iframe>  
+<br> <!-- Adds vertical space -->
+
+**Landing on a Vehicle in an Urban Setting**  
+Finally, we also demonstrated a landing sequence on a moving vehicle in an urban setting, at the *Interdisciplinary Institute for Technological Innovation* (Université de Sherbrooke). A simplified robust landing strategy could open facilitate the implementation of scenarios such as hybrid ground-air delivery, where a drone handles last-mile drop-offs before returning to the ground vehicle for the ride back, or multi-city missions where a drone hitches a ride to conserve power. power consumption before the mission. While our focus was mainly on the landing gear, it’s always exciting to imagine the broader applications!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hJn3TGY4muU" frameborder="0" allowfullscreen></iframe>  
   
-## Spike-Equipped Friction Shock Absorbers and Reverse Thrust to Land on Steep Iceberg and Glacier Slopes
-For phase 3 of my PhD research, I turned my focus towards the design of specialized spiked feet to enable drones to land on steep ice surfaces such as glaciers and icebergs. Again, using friction shock absorbers was proven essential to dampen the impact energy and ensure constant contact between the spikes and the ice, preventing rebounds. Reverse thrust was also key to landing success as it maintains the pressure needed for the spike to stay engaged in the ice during the post-impact sliding of the drone. The proposed solution allowed us to successfully land our drone on 24 icebergs/glaciers in Iceland during a 2-weeks field trial.
+## Phase 3: Spike-Equipped Friction Shock Absorbers and Reverse Thrust to Land on Steep Iceberg and Glacier Slopes
+In Phase 3 of my PhD research, I focused on designing specialized spiked feet to enable drones to land on steep ice surfaces, such as glaciers and icebergs. Once again, friction-based shock absorbers proved essential for dampening impact energy and maintaining constant contact between the spikes and the ice, preventing rebounds. Reverse thrust was also critical, as it provided the necessary pressure to keep the spikes engaged during the drone's post-impact sliding and braking. The spikes were designed to be retractable (inspired from cats!) so the drone can land facing either upward or downward. The proposed solution enabled successful landings on 24 icebergs and glaciers in Iceland during a two-week field trial.
 
 The demo video is coming soon!
 
@@ -37,7 +63,6 @@ The demo video is coming soon!
   <img src="../images/droneOnIceberg3.png" alt="Drone landed on iceberg" style="width: 48%; border: 0.5px solid black;">
   <img src="../images/droneOnGlacier.jpg" alt="Drone landed on glacier" style="width: 48%; border: 0.5px solid black;">
 </div>
-
 
 <div style="display: flex; justify-content: center;">
   <img src="../images/droneOnIceberg2.jpg" alt="Drone coasted in Iceland" style="width: 48%; border: 0.5px solid black;">

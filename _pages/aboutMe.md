@@ -1,11 +1,17 @@
 ---
 layout: archive
-title: "About Me"
+# title: "About Me"
 permalink: /aboutMe/
 author_profile: true
 ---
 
-Here is some extra information about me!
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
+
+<!-- Here is some extra information about me! -->
 
 <!-- <p>
   <a href="{{ site.baseurl }}/files/resume.pdf" download class="btn btn-primary">
