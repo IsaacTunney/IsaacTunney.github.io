@@ -6,7 +6,7 @@ permalink: /publication/2022-10-26-IEEEtalk-landingOnRooftops
 excerpt: 'This presentation is associated with our paper of the same name.'
 date: 2022-10-26
 venue: 'IEEE 2022 Conference - Kyoto, Japan'
-slidesurl: 'http://IsaacTunney.github.io/files/BassTunney2022Kyoto.pdf'
+slidesurl: 'https://IsaacTunney.github.io/files/BassTunney2022Kyoto.pdf'
 # paperurl: 'http://IsaacTunney.github.io/files/paper2.pdf'
 # citation: 'J. Bass, I. Tunney and A. L. Desbiens, "Adaptative Friction Shock Absorbers and Reverse Thrust for Fast Multirotor Landing on Inclined Surfaces," in IEEE Conference, Kyoto (Japan), October 2022
 

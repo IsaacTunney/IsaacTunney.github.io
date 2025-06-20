@@ -11,29 +11,38 @@ author_profile: true
   }
 </style>
 
-General intro here...
+My entire research project started because of one main challenge that most small multirotor drones face: They were mostly  design to land in undisturbed, predictable conditions and on horizontal, human-made surfaces. To be as lighweight as possible, multirotors often have rigid landing gears that act as a spring during the landing impact, especially at faster descent speeds, which can make the landing phase very risky if there is any inclination of the landing surface.
+Unfortunately, the outdoor world is not often perfectly even and horizontal, and a lot of new potential drone applications would benefit from a more robust and reliable landing technology. As it is right now, something like 66% of mission failures and drone crashes happen during landing (quote)...
+For my PhD research, I decided to explore how the use of friction-based damping landing gears, combined with thrust reversal at impact, could expand the landing envelopes of multirotors.
+Such a technology could make the UAV missions a lot safer and could potentially contribute to the creation of new drone applications in the real world.
 
 ## Phase 1: Friction-Based Dampers and Reverse Thrust to Land Multirotors on Steep Rooftops
-Small multirotors are not capable of landing in complex situations, such as on inclined surfaces, in wind gusts or at high impact velocities. This paper explores the use of lightweight friction shock absorbers, combined with rapid thrust reversal, to increase the landing envelope of a quadrotor. The friction shock absorbers serve to dissipate the drone’s kinetic energy and the reverse thrust increases the maximum slope inclination at which it can land. A landing gear prototype was designed and implemented on a DJI F450, and a model was created to generate landing maps to evaluate its benefits. Finally, the technology was tested in real outdoor conditions. The overall system enables drones to safely land on surfaces of up to 60° and at vertical speeds of up to 2.75 m/s, thus increasing the landing envelope by a factor of 8, compared to traditional multirotors.
-The video below shows our landing technology on a DJI F450 drone in real-world scenarios!
+Small multirotors are typically not capable of landing in complex situations, such as on inclined surfaces, in wind gusts or at high impact velocities. 
+In phase 1 of my PhD research, I explored the use of lightweight friction shock absorbers, combined with rapid thrust reversal, to increase the landing envelope of small quadrotors. The friction shock absorbers serve to dissipate the drone’s kinetic energy and the reverse thrust increases the maximum slope inclination at which it can land. 
+I designed a landing gear prototype and implemented it to a DJI F450 drone. The friction shock absorber design consists of multiple parallel disks that rotate relative to each other during impact to generate friction, while a small 10-g DC motor with a higly-reduced gearbox applies a compression force on the disks to adjust the friction torque. Current sensors allow precise adjustement of the friction torque, and small torsion springs in the system allow a reset of the legs to their initial position when friction is removed from the disks.
+Meanwhile, my research partner (John Bass) created a 2D model of the drone and legs to generate landing maps and to evaluate the benefits of using friction shock absorbers and reverse thrust. 
+Finally, we the technology in real outdoor conditions. The overall system enables drones to safely land on surfaces of up to 60° and at vertical speeds of up to 2.75 m/s, thus increasing the landing envelope by a factor of 8, compared to traditional multirotors.  
+The video below shows our landing technology in real-world scenarios!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tG1K_63q00Y" frameborder="0" allowfullscreen></iframe>
 
-For more information of that part of my project, check out my paper: 
+For more information on that part of my project, [go check out my paper](https://ieeexplore.ieee.org/abstract/document/9779538){:target="_blank"} published in *IEEE Robotics and Automation Letters* (2022 edition) or <a href="/files/paper1_landingOnRooftops.pdf" download target="_blank">download it</a> here.
+
 
 ## Phase 2: Upgraded Friction Shock Absorbers and Reverse Thrust to Land on High-Speed Ground Vehicles
-Small paragraph on chapter 2 of my Masters/PhD research.
+Typical landing gears of small UAVs limit their capability to land on vehicles moving at more than 20‐50 km/h due to high drag, high pitch angles and potentially high relative horizontal velocities. To enable landing at higher speeds, we studied how our same combination of lightweight friction shock absorbers and reverse thrust could simplify the entire landing sequence. We designed a new lightweight friction-based damping landing gear that allows for for rapid descents (i.e., 3 m/s) toward the vehicle. For the purpose of this study, we also designed a new custom high-power drone to fly at 130 km/h, and programmed a simple leveling maneuver to level the drone at the last instant before impact. Simulations show that the proposed system is (1) more robust at higher descent speed contrary to traditional configurations, (2) can touchdown at almost any time during the leveling maneuver, thus reducing the timing constraints, and (3) is robust to many environmental, design and operational factors, maintaining a success rate above 80% at up to 100 km/h. Compared to standard multirotors, this approach expands the possible states envelope at touchdown by a factor of 60. A total of 38 experimental trials were conducted where a drone  successfully landed on a pickup truck moving at speeds ranging from 10 to 110 km/h.
 
-Drone design, landing gear design, 2D model and controller, Monte Carlo Simulations (sensitivity analysis).
+<!-- Drone design, landing gear design, 2D model and controller, Monte Carlo Simulations (sensitivity analysis). -->
 
-The video belows demonstrates the achieved performances of the landing technology. 
-We rented a dragway race track near Montreal (Canada) to conduct our trials.
+The video below demonstrates the achieved performances of the landing technology. We rented a dragway race track near Montreal (Canada) for a day to conduct a total of 38 experimental trials, where our drone successfully landed on a pickup truck moving at speeds ranging from 10 to 110 km/h!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OHBPAHqLN08" frameborder="0" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OHBPAHqLN08" frameborder="0" allowfullscreen></iframe>
+
+For more information on how we landed our drone oon high-speed vehicles, we have a paper that's been submitted to the *Journal of Field Robotics* and accepted, so stay tuned!
 
 **Landing on an Trailer in Rough Terrain**  
-With robust control and precise tracking of the ground vehicle, achieving similar landing performance to what I described earlier is likely possible. However, when the vehicle moves over rough and unpredictable terrain, precisely timing the maneuver and syncing the drone’s descent with the vehicle’s motion becomes much more challenging. That's where having a damping landing gear and reverse thrust greatly simplifies the autonomous landing sequence! In the following demo, we successfully landed our drone autonomously on a trailer pulled by a Warthog over rough terrain during our field trials of the *NSERC Canadian Robotics Network* ([NCRN](https://ncrn-rcrc.mcgill.ca/)), near Toronto (Canada).  
-Big thanks to [Clearpath Robotics](https://clearpathrobotics.com/) for lending us the Warthog!
+With robust control and precise tracking of the ground vehicle, achieving similar landing performance to what I described earlier is likely possible. However, when the vehicle moves over rough and unpredictable terrain, precisely timing the maneuver and syncing the drone’s descent with the vehicle’s motion becomes much more challenging. That's where having a damping landing gear and reverse thrust greatly simplifies the autonomous landing sequence! In the following demo, we successfully landed our drone autonomously on a trailer pulled by a Warthog over rough terrain during our field trials of the *NSERC Canadian Robotics Network* ([NCRN](https://ncrn-rcrc.mcgill.ca/){:target="_blank"}), near Toronto (Canada).  
+Big thanks to [Clearpath Robotics](https://clearpathrobotics.com/){:target="_blank"} for lending us the Warthog!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jA9Zfpel1O8" frameborder="0" allowfullscreen></iframe>  
 <br> <!-- Adds vertical space -->
@@ -57,7 +66,7 @@ Finally, we also demonstrated a landing sequence on a moving vehicle in an urban
 ## Phase 3: Spike-Equipped Friction Shock Absorbers and Reverse Thrust to Land on Steep Iceberg and Glacier Slopes
 In Phase 3 of my PhD research, I focused on designing specialized spiked feet to enable drones to land on steep ice surfaces, such as glaciers and icebergs. Once again, friction-based shock absorbers proved essential for dampening impact energy and maintaining constant contact between the spikes and the ice, preventing rebounds. Reverse thrust was also critical, as it provided the necessary pressure to keep the spikes engaged during the drone's post-impact sliding and braking. The spikes were designed to be retractable (inspired from cats!) so the drone can land facing either upward or downward. The proposed solution enabled successful landings on 24 icebergs and glaciers in Iceland during a two-week field trial.
 
-The demo video is coming soon!
+The official demo video is coming soon!
 
 <div style="display: flex; gap: 10px; margin-bottom: 10px;">
   <img src="../images/droneOnIceberg3.png" alt="Drone landed on iceberg" style="width: 48%; border: 0.5px solid black;">

@@ -7,7 +7,7 @@ excerpt: 'This paper is about the use of friction-based dampers combined with th
 date: 2022-05-20
 venue: 'Robotics and Automation Letters'
 # slidesurl: 'http://IsaacTunney.github.io/files/slides1.pdf'
-paperurl: 'http://IsaacTunney.github.io/files/paper1_landingOnRooftops.pdf'
+paperurl: 'https://IsaacTunney.github.io/files/paper1_landingOnRooftops.pdf'
 # bibtexurl: 'http://IsaacTunney.github.io/files/bibtex1_landingOnRooftops.bib'
 citation: 'J. Bass, I. Tunney and A. L. Desbiens, "Adaptative Friction Shock Absorbers and Reverse Thrust for Fast Multirotor Landing on Inclined Surfaces," in IEEE Robotics and Automation Letters, vol. 7, no. 3, pp. 6701-6708, July 2022, doi: 10.1109/LRA.2022.3176102'
 
