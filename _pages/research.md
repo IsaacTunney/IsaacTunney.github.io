@@ -11,17 +11,20 @@ author_profile: true
   }
 </style>
 
-My entire research project started because of one main challenge that most small multirotor drones face: They were mostly  design to land in undisturbed, predictable conditions and on horizontal, human-made surfaces. To be as lighweight as possible, multirotors often have rigid landing gears that act as a spring during the landing impact, especially at faster descent speeds, which can make the landing phase very risky if there is any inclination of the landing surface.
-Unfortunately, the outdoor world is not often perfectly even and horizontal, and a lot of new potential drone applications would benefit from a more robust and reliable landing technology. As it is right now, something like 66% of mission failures and drone crashes happen during landing (quote)...
-For my PhD research, I decided to explore how the use of friction-based damping landing gears, combined with thrust reversal at impact, could expand the landing envelopes of multirotors.
-Such a technology could make the UAV missions a lot safer and could potentially contribute to the creation of new drone applications in the real world.
+My entire research project started because of one main challenge that most small multirotor drones face: They are typically designed to land in undisturbed, predictable conditions and on horizontal, human-made surfaces. To be as lighweight as possible, multirotors often have rigid landing gears that act as a spring during the impact from landing, especially at faster descent speeds, which can make the landing phase very risky if there is any inclination of the landing surface.
+Unfortunately, the real outdoor world is not often perfectly even and horizontal, and a lot of new potential drone applications would benefit from a more robust and reliable landing technology. As it is right now, landing is still often considered as the most challenging phase of a drone mission. 
+<!-- something like 66% of mission failures and crashes happen during takeoff or landing (K. W. Williams et al., 2004).  -->
+For my PhD research, I decided to explore how the use of a friction-based damping landing gear, combined with thrust reversal at impact, could expand the landing envelope of multirotors and enable safer missions in harsh outdoor conditions.  
+
+The project is broken down into 3 phases: Phase 1 focusses on using friction and reverse thrust to land rapidly on inclined surfaces such as rooftops. Phase 2 studies how a similar technology can be ported to landings on fast-moving vehicles (such as a 120 km/h pickup truck on the highway) or vehicles moving in rough, unpreditable terrain (boats, ATVs). Phase 3 explores the design of novel feet made of opposing retractable spikes and added to the landing gear legs to land on steeply inclined ice surfaces such as glaciers and icebergs. Keep scrolling to see all of our cool demonstrations!
+<!-- Such a technology could make the UAV missions a lot safer and could potentially contribute to the creation of new drone applications in the real world. -->
 
 ## Phase 1: Friction-Based Dampers and Reverse Thrust to Land Multirotors on Steep Rooftops
 Small multirotors are typically not capable of landing in complex situations, such as on inclined surfaces, in wind gusts or at high impact velocities. 
 In phase 1 of my PhD research, I explored the use of lightweight friction shock absorbers, combined with rapid thrust reversal, to increase the landing envelope of small quadrotors. The friction shock absorbers serve to dissipate the drone’s kinetic energy and the reverse thrust increases the maximum slope inclination at which it can land. 
 I designed a landing gear prototype and implemented it to a DJI F450 drone. The friction shock absorber design consists of multiple parallel disks that rotate relative to each other during impact to generate friction, while a small 10-g DC motor with a higly-reduced gearbox applies a compression force on the disks to adjust the friction torque. Current sensors allow precise adjustement of the friction torque, and small torsion springs in the system allow a reset of the legs to their initial position when friction is removed from the disks.
 Meanwhile, my research partner (John Bass) created a 2D model of the drone and legs to generate landing maps and to evaluate the benefits of using friction shock absorbers and reverse thrust. 
-Finally, we the technology in real outdoor conditions. The overall system enables drones to safely land on surfaces of up to 60° and at vertical speeds of up to 2.75 m/s, thus increasing the landing envelope by a factor of 8, compared to traditional multirotors.  
+Finally, we tested the technology in real outdoor conditions. The overall system enables drones to safely land on surfaces of up to 60° and at vertical speeds of up to 2.75 m/s, thus increasing the landing envelope by a factor of 8, compared to traditional multirotors.  
 The video below shows our landing technology in real-world scenarios!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tG1K_63q00Y" frameborder="0" allowfullscreen></iframe>

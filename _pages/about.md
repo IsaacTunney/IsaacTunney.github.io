@@ -65,18 +65,18 @@ Here, I decided to have fun with multi-drones ROS & Gazebo simulations! This was
 ## RRT motion planning for UAV in full 2D state space
 
 
-## The Perfectly-Clear-Ice Maker
+<!-- ## The Perfectly-Clear-Ice Maker
 Lately, I've been exploring the idea of making perfect cristal clear ice at home. Some companies already specialize in making clear ice for sculpting competitions or for fancy restaurants, but the commercial small-scale solutions currently out there are quite large. This is due to the fact that the typical solution to make clear ice is to ensure directional freezing, often done with good insulation on the ice tray sides and top or bottom, to have either top-to-bottom freezing or vice versa. However, all the retailer products are quite large and/or expansive. That got me thinking: Could I make my own custom clear-ice maker using inexpensive existing products and a bit of creativity?
-The answer is yes! ...
+The answer is yes! ... -->
 
 ## Particle Explosion Animation in C++
 During my undergrade in mechanical engineering, I also wanted to learn how to code (more than just Matlab), so I took online C++ and Python courses (on Udemy). Here is a particle animation I made in C++ through one of the courses!
 
-## Small-scale Arduino Radar with GUI
+<!-- ## Small-scale Arduino Radar with GUI
 This project dates back to my first year of University (humble beginnings...). I played around with servo motors, distance sensors and a bit of programming to make a small-scale radar with a nice user interface.
 (Embedded Video or images)
 
-This was based off of a tutorial on youtube: Link
+This was based off of a tutorial on youtube: Link -->
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 

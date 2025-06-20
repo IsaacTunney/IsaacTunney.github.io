@@ -2,10 +2,11 @@
 title: "Adaptive Friction Shock Absorbers and Reverse Thrust for Fast Multirotor Landing on Inclined Surfaces"
 collection: publications
 category: manuscripts
-permalink: /publication/2022-05-20-paper-landingOnRoooftops
+permalink: /publication/2022-05-20-paper-landingOnRooftops
 excerpt: 'This paper is about the use of friction-based dampers combined with thrust reversal to enable small multirotors to land rapidly on steep surfaces (up to 60°) such as rooftops.'
 date: 2022-05-20
 venue: 'Robotics and Automation Letters'
+status: 'Published'
 # slidesurl: 'http://IsaacTunney.github.io/files/slides1.pdf'
 paperurl: 'https://IsaacTunney.github.io/files/paper1_landingOnRooftops.pdf'
 # bibtexurl: 'http://IsaacTunney.github.io/files/bibtex1_landingOnRooftops.bib'
