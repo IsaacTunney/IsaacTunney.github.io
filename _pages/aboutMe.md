@@ -9,6 +9,9 @@ author_profile: true
   body {
     text-align: justify;
   }
+  .author__bio {
+    text-align: left !important;
+  }
 </style>
 
 <!-- Here is some extra information about me! -->
@@ -21,14 +24,22 @@ author_profile: true
 
 ## Interests & Hobbies
 When I am not working on my research or robots, I spend a lot of time either at the rock climbing gym, playing tennis or running!
-I have been rock climbing for about 10 years now, focussing mostly on indoor bouldering (no ropes, lower walls but more intense movements), although I have still managed to climb some nice outdoor cliffs like the ones on the pictures below!
+I have been rock climbing for about 10 years now, focussing mostly on indoor bouldering (no ropes, lower walls but more intense movements), although I've been lucky enough to climb on these incredibly nice cliffs in the region of Krabi, Thailand!
 
-(put pictures)
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 15px;">
+  <img src="/images/krabiClimbing1.jpg" alt="Climbing in krabi, Thailand" style="width: 100%; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+  <img src="/images/krabiClimbing2.jpg" alt="Climbing in krabi, Thailand" style="width: 100%; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+</div>
 
+<div style="text-align: center; font-size: 0.9em; color: #555; margin-top: 8px;">
+  (Pictures taken from <a href="https://www.hittheroadjeanne.com/tonsai-beach-choses-a-savoir/" target="_blank">https://www.hittheroadjeanne.com/tonsai-beach-choses-a-savoir/</a>)
+</div>
+
+<br>
 Apart from sports, I enjoy reading, playing chess and other board games, and learning new stuff!
 
 ## Latte Art (Just for Fun!)
-As an engineering, I (obviously) have a deep passion/obsession with coffee. My 3 lattes a day have given me lots of opportunities to practice and have fun with latte art, but its still a work in progress. After learning the to do the heart and the tulip, I have recently been working on the rosetta... Next up, the swan!
+As an engineering, I (obviously) have a deep passion (maybe obsession?) for coffee. My 3 coffees a day have given me lots of opportunities to practice and have fun with latte art, but its still a work in progress. After learning to make the heart and the tulip, I have recently been working on the rosetta (pictures below)... Next up, the swan!
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 15px;">
   <!-- Row 1 -->

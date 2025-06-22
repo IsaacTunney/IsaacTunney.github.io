@@ -9,6 +9,9 @@ author_profile: true
   body {
     text-align: justify;
   }
+  .author__bio {
+    text-align: left !important;
+  }
 </style>
 
 My entire research project started because of one main challenge that most small multirotor drones face: They are typically designed to land in undisturbed, predictable conditions and on horizontal, human-made surfaces. To be as lighweight as possible, multirotors often have rigid landing gears that act as a spring during the impact from landing, especially at faster descent speeds, which can make the landing phase very risky if there is any inclination of the landing surface.

@@ -11,15 +11,20 @@ redirect_from:
   body {
     text-align: justify;
   }
+  .author__bio {
+    text-align: left !important;
+  }
 </style>
 
-Hello! I'm Isaac, a PhD Student in Mechanical Engineering and a passionate roboticist. Welcome to my personal website! This space is a hub for me to gather some of my best engineering projects and to present my ongoing research with the University of Sherbrooke (Canada).
-To present myself in a few words, I like to invent things, especially if these things do not exist or do not operate as they should! I enjoy solving problems through creative thinking and fast prototyping, and one of my favorite parts of any project is the inital brainstorming/creative phase where all ideas are accepted and explored, before converging towards a solution.
+Hello! I'm Isaac, a PhD Student in Mechanical Engineering and a passionate roboticist. Welcome to my personal website! This space is a hub for me to gather some of my best engineering projects and to present my [ongoing research](/research/) with the University of Sherbrooke (Canada).
+To introduce myself in a few words, I like to invent things, especially if these things do not exist or do not operate as they should! I enjoy solving problems through creative thinking and fast prototyping, and one of my favorite parts of any project is the inital brainstorming/creative phase where all ideas are accepted and explored, before converging towards a solution. 
 
-Most of my work and research in the last years has focussed on drones (see [Current Research](/research/)), but I enjoy working on other robots or projects too! Below is a quick presentation of some of my past projects, starting with the coolest.
+Although my research in the last years has mostly been focussed on aerial robotics, I've had the chance to play around with a lot of other robotic platforms through my internships and personal projects. These include acrobatic robots ([Disney Research](https://la.disneyresearch.com/)), [flight simulator with virtual reality](#aerostrabe) (senior undergrade project), [robotic grippers](#gripper)  (PhD side project), [4-wheel robots](#csquare) (personal) and C++/Python projects such as [drone simulations](#dronesim_ROS) (ROS + Gazebo), [motion planning algorithms](#rrt) (Matlab), financial websraper (python) and [particle animator](#particleanimation) (C++).  
+Below is a quick presentation of some of my past projects, starting with the coolest.
 
 <!--Lets go in coolness order -->
 
+<a id="aerostrabe"></a>
 ## Aerostrabe -- A fully immersive 4-DOF VR-integrated flight simulator to experience the urban air mobility of the future
 For our senior undergrade project, my team and I (6 mechanical engineering students) decided to create a complete multisensorial flight simulator from scratch! The vision: An immersive single-seat multirotor flight simulator that enables inventors and investors alike to fully experience the urban air mobility of the future.
 
@@ -41,10 +46,11 @@ Here is the final product:
 **Main sponsors:** Imaginactive, BRP, Epic Games (Epic MegaGrants)  
 **Other sponsors:** CSTM, Chair in Design for Aluminium, Gosselin, D-BOX, Exp., Shellex, WCB, Royal Lepage  
 
+<a id="gripper"></a>
 ## High-Impact-Load Quick-release Novel Gripper for Acrobatic Robots
 Embedded youtube video
 
-
+<a id="csquare"></a>
 ## Omnidirectional Robot to Interact and Play with your Pets
 My dog Charlie, as any good Covid-19 dog, has some issues with the idea of staying home alone. He also has a true passion for fetching tennis balls, although he struggles with the part where he has to give it back. This gave me the idea to create a small omnidirectional 4-wheel robot that can move around in the house, launch a tennis ball and give a treat when my dog brings the ball back to the robot. This way, Charlie can play and fetch a ball while I'm working!
 
@@ -53,30 +59,47 @@ Here is a little demo of the robot in action with Charlie:
 
 **How does it work?**  
 The mobile platform uses 80-mm mecanum wheels to move in any direction (holonomic system), and a Teensy 4.1 for the low-level control of the platform. 
-The main (higher level) control system runs on a Raspberry Pi 4B and is connected to the Internet. A Pi Camera is used to detect objects such as the tennis ball and to do SLAM for navigation in the house/appartment. The mechanisms for the ball launcher and treat dispenser are all custom and 3D printed on a Markforged Onyx One. 
+The main (higher level) control system runs on a Raspberry Pi 4B and is connected to the Internet. A Pi Camera is used to detect objects such as the tennis ball and to do SLAM for navigation in the house/appartment. The mechanisms for the ball launcher and treat dispenser are all custom parts 3D printed on a Markforged Onyx One. 
 
+<a id="dronesim_ROS"></a>
 ## Drone Simulations with ROS and Gazebo
 Here, I decided to have fun with multi-drones ROS & Gazebo simulations! This was based off of X's work and tutorials --> XX.
 
-
+<a id="dronesim_python"></a>
 ## Drone Simulations in Python
 
-
+<a id="rrt"></a>
 ## RRT motion planning for UAV in full 2D state space
+There is an algorithm called [Rapidly-Exploring Random Trees](https://journals.sagepub.com/doi/10.1177/02783640122067453) (RRT), which is often used for path planning, but also sometimes for motion planning. It works by randomly exploring a predefine space and connecting new points to their nearest neighbors for rapid exploration:  
 
+<div style="display: flex; justify-content: center; margin: 10px 0;">
+  <img src="/images/basicRRT.gif" alt="RRT Animation" style="max-width: 100%; height: auto; border: 1px solid #888; border-radius: 4px;">
+</div>
+<div style="text-align: center; font-size: 0.9em; color: #555">
+  (Source: <a href="https://lavalle.pl/rrtpubs.html" target="_blank">https://lavalle.pl/rrtpubs.html</a>)
+</div>  
+<br>
+I decided to explore how I could use it and modify it to actually explore the full state space of a 2D drone to generate full body motions. My algorithm works as follows:
+
+Here is the final result:
+
+I have only tested it on basic use cases such as moving from point A to B, but long term this could potentially be used to explore more complex drone maneuvers.
+
+<!-- https://lavalle.pl/papers/LavKuf01b.pdf
+ https://lavalle.pl/rrtpubs.html)  -->
 
 <!-- ## The Perfectly-Clear-Ice Maker
 Lately, I've been exploring the idea of making perfect cristal clear ice at home. Some companies already specialize in making clear ice for sculpting competitions or for fancy restaurants, but the commercial small-scale solutions currently out there are quite large. This is due to the fact that the typical solution to make clear ice is to ensure directional freezing, often done with good insulation on the ice tray sides and top or bottom, to have either top-to-bottom freezing or vice versa. However, all the retailer products are quite large and/or expansive. That got me thinking: Could I make my own custom clear-ice maker using inexpensive existing products and a bit of creativity?
 The answer is yes! ... -->
 
+<a id="particleanimation"></a>
 ## Particle Explosion Animation in C++
-During my undergrade in mechanical engineering, I also wanted to learn how to code (more than just Matlab), so I took online C++ and Python courses (on Udemy). Here is a particle animation I made in C++ through one of the courses!
+During my undergrade in mechanical engineering, I also wanted to learn how to code (more than just Matlab), so I took online C++ and Python courses on Udemy. Here is a particle animation I made in C++ through one of the courses!
 
-<!-- ## Small-scale Arduino Radar with GUI
-This project dates back to my first year of University (humble beginnings...). I played around with servo motors, distance sensors and a bit of programming to make a small-scale radar with a nice user interface.
-(Embedded Video or images)
+<!-- <div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img src="/images/particleAnimation.gif" alt="Git Animation" style="max-width: 100%; height: auto; border: 1px solid #888; border-radius: 4px;">
+</div> -->
 
-This was based off of a tutorial on youtube: Link -->
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
@@ -117,4 +140,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.-->
