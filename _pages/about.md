@@ -70,7 +70,7 @@ Here, I decided to have fun with multi-drones ROS & Gazebo simulations! This was
 
 <a id="rrt"></a>
 ## RRT motion planning for UAV in full 2D state space
-There is an algorithm called [Rapidly-Exploring Random Trees](https://journals.sagepub.com/doi/10.1177/02783640122067453) (RRT), which is often used for path planning, but also sometimes for motion planning. It works by randomly exploring a predefine space and connecting new points to their nearest neighbors for rapid exploration:  
+There is an algorithm called [Rapidly-Exploring Random Trees](https://journals.sagepub.com/doi/10.1177/02783640122067453) (RRT), which is often used for path planning, but also sometimes for motion planning. It works by randomly exploring a predefine space and connecting new points to their nearest neighbors to promote rapid exploration of the map. 
 
 <div style="display: flex; justify-content: center; margin: 10px 0;">
   <img src="/images/basicRRT.gif" alt="RRT Animation" style="max-width: 100%; height: auto; border: 1px solid #888; border-radius: 4px;">
@@ -80,15 +80,19 @@ There is an algorithm called [Rapidly-Exploring Random Trees](https://journals.s
 </div>  
 <br>
 I decided to explore how I could use it and modify it to actually explore the full state space of a 2D drone to generate full body motions. My algorithm works as follows:
+It explores the 2D state space of the drone (positions, velocities, pitch angle and pitch rate) and generates trees in the 6 dimensions until it reaches its goal while keeping track of force/torque inputs. Once the goal is reached, its plays back the force/torque sequence to bring the drone to its goal.
 
-Here is the final result:
+Here is an example flying from point A to B:
+<div style="display: flex; justify-content: center; margin: 10px 0;">
+  <img src="/images/droneAnimationRRT.gif" alt="RRT Drone Animation" style="max-width: 100%; height: auto; border: 1px solid #888; border-radius: 4px;">
+</div>
 
 I have only tested it on basic use cases such as moving from point A to B, but long term this could potentially be used to explore more complex drone maneuvers.
 
 <!-- https://lavalle.pl/papers/LavKuf01b.pdf
- https://lavalle.pl/rrtpubs.html)  -->
+ https://lavalle.pl/rrtpubs.html)
 
-<!-- ## The Perfectly-Clear-Ice Maker
+## The Perfectly-Clear-Ice Maker
 Lately, I've been exploring the idea of making perfect cristal clear ice at home. Some companies already specialize in making clear ice for sculpting competitions or for fancy restaurants, but the commercial small-scale solutions currently out there are quite large. This is due to the fact that the typical solution to make clear ice is to ensure directional freezing, often done with good insulation on the ice tray sides and top or bottom, to have either top-to-bottom freezing or vice versa. However, all the retailer products are quite large and/or expansive. That got me thinking: Could I make my own custom clear-ice maker using inexpensive existing products and a bit of creativity?
 The answer is yes! ... -->
 
@@ -97,8 +101,19 @@ The answer is yes! ... -->
 During my undergrade in mechanical engineering, I also wanted to learn how to code (more than just Matlab), so I took online C++ and Python courses on Udemy. Here is a particle animation I made in C++ through one of the courses!
 
 <!-- <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <img src="/images/particleAnimation.gif" alt="Git Animation" style="max-width: 100%; height: auto; border: 1px solid #888; border-radius: 4px;">
+  <video controls autoplay muted loop style="max-width: 100%; border: 1px solid #888; border-radius: 4px;">
+    <source src="/images/particleAnimationCut.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div> -->
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video controls autoplay muted loop
+    style="width: 860px; height: 450px; object-fit: cover; border: 1px solid #888; border-radius: 4px;">
+    <source src="/images/particleAnimationCut.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
@@ -140,4 +155,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.-->
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
