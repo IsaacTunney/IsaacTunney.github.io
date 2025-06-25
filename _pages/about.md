@@ -40,21 +40,47 @@ Here is the final product:
 </iframe>
 </div>
 
-**How does it work?** A 4-DOFs motion system moves the platform to create realistic sensations of accelerations, while a VR headset immerses the pilot (the simulator's user) in a virtual city made with Unreal Engine. The pilot uses ATV-style intuitive tactile commands to control the flying vehicle and uses its own weight to move from side to side, through load-cells placed under the seat and feet. Finally, based on the pilot commands, a semi-realistic dynamic model of the vehicle (in Python) is used to compute flight behavior, which is synchronized with the virtual world and simulator motion, while fans in the front are used to simulate wind and increase realism.
-
-**Team members:** Alexis Bédard-Meunier, Julien Labbé, Julien Charbonneau, Charles-Étienne Gauthier, Benoit Beaupré and Isaac Tunney  
+**How does it work?** A 4-DOFs motion system moves the platform to create realistic sensations of accelerations, while a VR headset immerses the pilot (the simulator's user) in a virtual city made with Unreal Engine. The pilot uses ATV-style intuitive tactile commands to control the flying vehicle and uses its own weight to move from side to side, through load-cells placed under the seat and feet. Finally, based on the pilot commands, a semi-realistic dynamic model of the vehicle (in Python) is used to compute flight behavior, which is synchronized with the virtual world and simulator motion, while fans in the front are used to simulate wind and increase realism.  
+**My roles:** Technical lead/team lead for everything software related, responsible for programming the global software architecture of the simulator as well as the flight dynamics module and the motion control system. Also responsible to oversee the virtual world development (Unreal Engine) and its integration in the simulator.  
+<!-- **Team members:** Alexis Bédard-Meunier, Julien Labbé, Julien Charbonneau, Charles-Étienne Gauthier, Benoit Beaupré and Isaac Tunney   -->
+**Total budget:** About C$60,000  
 **Main sponsors:** Imaginactive, BRP, Epic Games (Epic MegaGrants)  
 **Other sponsors:** CSTM, Chair in Design for Aluminium, Gosselin, D-BOX, Exp., Shellex, WCB, Royal Lepage  
 
 <a id="gripper"></a>
-## High-Impact-Load Quick-release Novel Gripper for Acrobatic Robots
-Embedded youtube video
+## High-Load Quick-release Novel Gripper for Acrobatic Robots
+In the context of acrobatic robots (picture a trapezist), their hands (grippers) must have specific requirements in order for the robot to quickly release itself from a bar but also catch itself onto the next bar, often at high impact velocities. A gripper with such capabilities doesn't exist, so I had to design one myself through a project with my lab ([Createk Design Lab](https://www.createk.co/){:target="_blank"}, Université de Sherbrooke).  
+
+I worked on this project in parallel with my PhD, doing about 8hrs/week for about a year, as well as organizing the global project and leading the monthly updates with the industrial partner!
+
+Here is the final gripper's CAD and the actual prototype with one side removed so we can see the inside of the hand.
+
+<div style="display: grid; grid-template-columns: 1.3fr 0.85fr 0.85fr; gap: 10px; margin-top: 15px;">
+  <img src="/images/gripperCAD_naming.png" alt="Gripper CAD" style="width: 100%; object-fit: cover">
+  <img src="/images/gripperCAD_opened.png" alt="Gripper CAD opened" style="width: 100%; object-fit: cover">
+  <img src="/images/gripperOpened.jpg" alt="Gripper opened" style="width: 100%; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+</div>
+<br>
+And here it is in action, recorded with a Phantom High-Speed camera at 1000 fps:
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 20px 0;">
+  <video controls autoplay muted loop style="width: 100%; height: 260px; object-fit: contain; border: 1px solid #888; border-radius: 8px;">
+    <source src="/images/gripperInAction1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video controls autoplay muted loop style="width: 100%; height: 260px; object-fit: contain; border: 1px solid #888; border-radius: 8px;">
+    <source src="/images/gripperInAction2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+**How does it work?** In order to withstand high forces while remaining easy to release, I used a 4-bar linkage mechanism to link the fingers and release trigger (the fingers being one of the linkages). When the fingers are closed, the 4-bar is configured at its singularity point, which has the benefit of providing a very high mechanical advantage (30 to 40): A very small force is needed to open the fingers even under high loads. A single solenoid in the forearms pushes on the trigger link, which makes the fingers passively open due to the robot's weight. The ratcheted thumb is passively actuated at impact through the use of a thin fishing wire, so no extra sensors are required to detect the impact with the bar. After the release, multiple springs inside the hand bring the fingers and thumb back to their original pre-catch position, limiting the total number of actuators to one. The electronics and battery are placed in the forearms.
 
 <a id="csquare"></a>
 ## Omnidirectional Robot to Interact and Play with your Pets
 My dog Charlie, as any good Covid-19 dog, has some issues with the idea of staying home alone. He also has a true passion for fetching tennis balls, although he struggles with the part where he has to give it back. This gave me the idea to create a small omnidirectional 4-wheel robot that can move around in the house, launch a tennis ball and give a treat when my dog brings the ball back to the robot. This way, Charlie can play and fetch a ball while I'm working!
 
-Here is a little demo of the robot in action with Charlie:
+Here is a little demo of the robot in action with Charlie:  
 (Video link here)
 
 **How does it work?**  
@@ -63,10 +89,19 @@ The main (higher level) control system runs on a Raspberry Pi 4B and is connecte
 
 <a id="dronesim_ROS"></a>
 ## Drone Simulations with ROS and Gazebo
-Here, I decided to have fun with multi-drones ROS & Gazebo simulations! This was based off of X's work and tutorials --> XX.
+Throughout my research, I've had to extensively modify the Ardupilot firmware (an open-source drone autopilot, in C++) to achieve all our desired demonstrations (landing on rooftops, on high-speed vehicles, on icebergs, etc.), but I also wanted to gain experience using ROS with Ardupilot, simulated in [Gazebo Simulator](https://gazebosim.org/home){:target="_blank"}. Here is a small project based off of [Intelligent-Quad's code](https://github.com/Intelligent-Quads/iq_tutorials){:target="_blank"} where I have multiple drones following each other based on commands from the master computer, all visualized in Gazebo Simulator with MAVproxy as the Ground Control Station.
+
+(Put video here)
 
 <a id="dronesim_python"></a>
-## Drone Simulations in Python
+## Drone Simulations in Python -- Minimum Snap Trajectory
+I've also done a lot of multirotor modeling and control in 3D as a testing tool for multiple drone projects. Here's a little animation of a drone following a sequence of multiple waypoints in space using a *miminum snap trajectory*. For those that don't know, snap is the second derivative of acceleration, so having a trajectory that minimizes snap will provide smooth setpoints for the drone to follow!
+In the video below, the red dots are position setpoints that the drone tries to follow (blue dots) at each timestep.
+
+<div style="display: flex; justify-content: center; margin: 10px 0;">
+  <img src="/images/dronesim_minSnap.gif" alt="RRT Drone Animation" style="max-width: 100%; height: auto; border: 1px solid #888; border-radius: 4px;">
+</div>
+
 
 <a id="rrt"></a>
 ## RRT motion planning for UAV in full 2D state space
@@ -82,7 +117,7 @@ There is an algorithm called [Rapidly-Exploring Random Trees](https://journals.s
 I decided to explore how I could use it and modify it to actually explore the full state space of a 2D drone to generate full body motions. My algorithm works as follows:
 It explores the 2D state space of the drone (positions, velocities, pitch angle and pitch rate) and generates trees in the 6 dimensions until it reaches its goal while keeping track of force/torque inputs. Once the goal is reached, its plays back the force/torque sequence to bring the drone to its goal.
 
-Here is an example flying from point A to B:
+Here is an example flying from point A to B (in Matlab):
 <div style="display: flex; justify-content: center; margin: 10px 0;">
   <img src="/images/droneAnimationRRT.gif" alt="RRT Drone Animation" style="max-width: 100%; height: auto; border: 1px solid #888; border-radius: 4px;">
 </div>
@@ -100,13 +135,6 @@ The answer is yes! ... -->
 ## Particle Explosion Animation in C++
 During my undergrade in mechanical engineering, I also wanted to learn how to code (more than just Matlab), so I took online C++ and Python courses on Udemy. Here is a particle animation I made in C++ through one of the courses!
 
-<!-- <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <video controls autoplay muted loop style="max-width: 100%; border: 1px solid #888; border-radius: 4px;">
-    <source src="/images/particleAnimationCut.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div> -->
-
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video controls autoplay muted loop
     style="width: 860px; height: 450px; object-fit: cover; border: 1px solid #888; border-radius: 4px;">
@@ -114,7 +142,6 @@ During my undergrade in mechanical engineering, I also wanted to learn how to co
     Your browser does not support the video tag.
   </video>
 </div>
-
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
