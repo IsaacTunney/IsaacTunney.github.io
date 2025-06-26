@@ -76,16 +76,23 @@ And here it is in action, recorded with a Phantom High-Speed camera at 1000 fps:
 
 **How does it work?** In order to withstand high forces while remaining easy to release, I used a 4-bar linkage mechanism to link the fingers and release trigger (the fingers being one of the linkages). When the fingers are closed, the 4-bar is configured at its singularity point, which has the benefit of providing a very high mechanical advantage (30 to 40): A very small force is needed to open the fingers even under high loads. A single solenoid in the forearms pushes on the trigger link, which makes the fingers passively open due to the robot's weight. The ratcheted thumb is passively actuated at impact through the use of a thin fishing wire, so no extra sensors are required to detect the impact with the bar. After the release, multiple springs inside the hand bring the fingers and thumb back to their original pre-catch position, limiting the total number of actuators to one. The electronics and battery are placed in the forearms.
 
-<a id="csquare"></a>
+<!-- <a id="csquare"></a>
 ## Omnidirectional Robot to Interact and Play with your Pets
-My dog Charlie, as any good Covid-19 dog, has some issues with the idea of staying home alone. He also has a true passion for fetching tennis balls, although he struggles with the part where he has to give it back. This gave me the idea to create a small omnidirectional 4-wheel robot that can move around in the house, launch a tennis ball and give a treat when my dog brings the ball back to the robot. This way, Charlie can play and fetch a ball while I'm working!
+My dog Charlie, as any good Covid-19 dog, has some issues with the idea of staying home alone. He also has a true passion for fetching tennis balls, although he struggles with the part where he has to give it back. This gave me the idea to create a small omnidirectional 4-wheel robot that can move around in the house, launch a tennis ball and give a treat when my dog brings the ball back to the robot. I haven't found a product on the market that combines all of these things in a single robot!
 
-Here is a little demo of the robot in action with Charlie:  
-(Video link here)
+This project has just started and yes, the robot is a total mess, but the goal here was just to validate the electronics, motors and encoders before soldering a cleaner protoboard. Next up is the design of the treat launcher!
+
+
+Here are some pictures of the robot (I know its messy!):  
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 20px 0;">
+  <img src="/images/csquare_1.jpg" alt="CSquare Demo 1" style="width: 100%; height: 220px; object-fit: contain; border: 1px solid #888; border-radius: 8px;">
+  <img src="/images/csquare_2.jpg" alt="CSquare Demo 2" style="width: 100%; height: 220px; object-fit: contain; border: 1px solid #888; border-radius: 8px;">
+</div>
 
 **How does it work?**  
 The mobile platform uses 80-mm mecanum wheels to move in any direction (holonomic system), and a Teensy 4.1 for the low-level control of the platform. 
-The main (higher level) control system runs on a Raspberry Pi 4B and is connected to the Internet. A Pi Camera is used to detect objects such as the tennis ball and to do SLAM for navigation in the house/appartment. The mechanisms for the ball launcher and treat dispenser are all custom parts 3D printed on a Markforged Onyx One. 
+The main (higher level) control system runs on a Raspberry Pi 4B and is connected to the Internet. A Pi Camera will be used to detect objects such as the tennis ball and to do SLAM for navigation in the house/appartment. -->
 
 <a id="dronesim_ROS"></a>
 ## Drone Simulations with ROS and Gazebo
@@ -131,8 +138,8 @@ I have only tested it on basic use cases such as moving from point A to B, but l
 Lately, I've been exploring the idea of making perfect cristal clear ice at home. Some companies already specialize in making clear ice for sculpting competitions or for fancy restaurants, but the commercial small-scale solutions currently out there are quite large. This is due to the fact that the typical solution to make clear ice is to ensure directional freezing, often done with good insulation on the ice tray sides and top or bottom, to have either top-to-bottom freezing or vice versa. However, all the retailer products are quite large and/or expansive. That got me thinking: Could I make my own custom clear-ice maker using inexpensive existing products and a bit of creativity?
 The answer is yes! ... -->
 
-<a id="particleanimation"></a>
-## Particle Explosion Animation in C++
+<!-- <a id="particleanimation"></a>
+## Particle Explosion Animation in C++ (Humble beginnings!)
 During my undergrade in mechanical engineering, I also wanted to learn how to code (more than just Matlab), so I took online C++ and Python courses on Udemy. Here is a particle animation I made in C++ through one of the courses!
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
@@ -141,7 +148,7 @@ During my undergrade in mechanical engineering, I also wanted to learn how to co
     <source src="/images/particleAnimationCut.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</div>
+</div> -->
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 

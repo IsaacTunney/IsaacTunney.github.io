@@ -30,6 +30,8 @@ I have been rock climbing for about 10 years now, focussing mostly on indoor bou
   <img src="/images/krabiClimbing1.jpg" alt="Climbing in krabi, Thailand" style="width: 100%; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
   <img src="/images/krabiClimbing2.jpg" alt="Climbing in krabi, Thailand" style="width: 100%; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
 </div>
+  <!-- <img src="/images/climbingItaly.jpg" alt="Climbing in krabi, Thailand" style="width: 100%; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+</div> -->
 
 <div style="text-align: center; font-size: 0.9em; color: #555; margin-top: 8px;">
   (Pictures taken from <a href="https://www.hittheroadjeanne.com/tonsai-beach-choses-a-savoir/" target="_blank">https://www.hittheroadjeanne.com/tonsai-beach-choses-a-savoir/</a>)
