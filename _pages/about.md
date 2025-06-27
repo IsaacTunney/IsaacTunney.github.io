@@ -100,7 +100,10 @@ The main (higher level) control system runs on a Raspberry Pi 4B and is connecte
 Throughout my research, I've had to extensively modify the Ardupilot firmware (an open-source drone autopilot, in C++) to achieve all our desired demonstrations (landing on rooftops, on high-speed vehicles, on icebergs, etc.), but I also wanted to gain experience using ROS with Ardupilot, simulated in [Gazebo Simulator](https://gazebosim.org/home){:target="_blank"}. Here is a small project based off of [Intelligent-Quad's code](https://github.com/Intelligent-Quads/iq_tutorials){:target="_blank"} where I have two drones following commands sent through ROS from a master computer, all visualized in Gazebo Simulator with MAVproxy as the Ground Control Station. During landing, the drones follow my own custom landing state machine programmed in Ardupilot (software-in-the-loop simulation) and activate reverse thrust at contact with the ground.
 
 <div style="display: flex; justify-content: center; margin: 10px 0;">
-  <img src="/images/ardupilotRosGazeboSimCut.mp4" alt="Ardupilot ROS drone sim" style="max-width: 100%; height: auto; border: 1px solid #888; border-radius: 4px;">
+  <video controls autoplay muted loop style="max-width: 100%; border: 1px solid #888; border-radius: 4px;">
+    <source src="/images/ardupilotRosGazeboSimCut.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 <a id="dronesim_python"></a>
